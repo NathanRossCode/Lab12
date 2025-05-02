@@ -1,17 +1,27 @@
-/* Class: CSCI 1302 - Lab12
+/* File: Lab12.java
+ * Class: CSCI 1302 - Lab12
  * Description: recursion lab
- * Author: Nathan Ross, partner
+ * Author: Nathan Ross, Batuhan Solim
  * Created on: May 2, 2025
  * Last Modified: May 2, 2025
 */
-public class Lab12 {
-private int value = 0, fNum;
-		public static int recursiveAbstract(fNum) {
-			if(value == fNum-1) {
-			value = (fNum -3)*((fNum-2)-(fNum-1));
-			return value;
-			}
-	
+
+public class Lab12Prob01 {
+
+	// recursion
+
+	public static int recursiveAbstract(int fNum) {
+
+		if (fNum == 0) {
+			return 1;
+		} else if (fNum == 1) {
+			return 3;
+		} else if (fNum == 2) {
+			return 4;
+		} else {
+			return recursiveAbstract(fNum - 3) * (recursiveAbstract(fNum - 2) - recursiveAbstract(fNum - 1));
 		}
+
+	}
 
 }
