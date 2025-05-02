@@ -19,3 +19,19 @@ public class Lab12Prob2 {
     }
 
 }
+
+
+/** ./tests/AssignmentTests.java:29: error: cannot find symbol
+        String actual = Lab12Prob02.reverseString(input);
+                        ^
+  symbol:   variable Lab12Prob02
+  location: class AssignmentTests
+./tests/AssignmentTests.java:42: error: cannot find symbol
+        String actual = Lab12Prob02.reverseString(input);
+                        ^
+  symbol:   variable Lab12Prob02
+  location: class AssignmentTests
+2 errors
+Error compiling files or running tests.
+
+Make sure the class is not in a package and the file name, class name, class data member names, method names, method parameters, etc. are as stated in the assignment description. **/ 
