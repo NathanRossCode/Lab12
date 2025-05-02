@@ -5,9 +5,13 @@
  * Last Modified: May 2, 2025
 */
 public class Lab12 {
-private int value;
+private int value = 0, fNum;
+		public static int recursiveAbstract(fNum) {
+			if(value == fNum-1) {
+			value = (fNum -3)*((fNum-2)-(fNum-1));
+			return value;
+			}
+	
+		}
 
-while() {
-
-}
 }
